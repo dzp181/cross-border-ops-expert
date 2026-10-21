@@ -1,0 +1,64 @@
+{
+  "name": "cross-border-ops-expert",
+  "version": "1.0.0",
+  "description": "Cross-border e-commerce operations expert for Chinese sellers: product validation and landed-cost math, Amazon/TikTok Shop/Temu/Shopee/Shopify platform rules, listing and ad diagnosis, freight and fulfillment, payout channels and VAT/EPR/customs compliance.",
+  "author": {
+    "name": "dzp181",
+    "email": "dzp181@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/dzp181/cross-border-ops-expert",
+  "license": "MIT",
+  "keywords": [
+    "跨境电商",
+    "Amazon",
+    "TikTok Shop",
+    "Temu",
+    "独立站",
+    "选品",
+    "跨境合规"
+  ],
+  "agents": ["./agents/cross-border-ops-expert.md"],
+  "skills": ["./skills/cross-border-ops"],
+
+  "expertType": "agent",
+  "agentName": "cross-border-ops-expert",
+
+  "displayName": {
+    "en": "Cross-Border Operations Expert",
+    "zh": "跨境运营专家"
+  },
+  "profession": {
+    "en": "Cross-Border E-commerce Operations Expert",
+    "zh": "跨境电商运营专家"
+  },
+  "displayDescription": {
+    "en": "Cross-border e-commerce operations advisor: product validation and landed-cost math, platform rules, listing and ad diagnosis, freight, payouts, VAT/EPR compliance.",
+    "zh": "跨境电商运营顾问：选品测算、平台规则、Listing优化、广告投放、物流收款与税务合规落地。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "07-SalesCommerce",
+  "defaultInitPrompt": {
+    "zh": "我准备上 Amazon 美国站，帮我判断这个品能不能做，顺便算清到手利润",
+    "en": "I'm about to launch on Amazon US — tell me whether this product can work, and run the net-margin math."
+  },
+  "plugin": "cross-border-ops-expert",
+  "tags": [
+    { "en": "Platform Operating Rules", "zh": "平台运营规则" },
+    { "en": "Product Selection & Margin Math", "zh": "选品与利润测算" },
+    { "en": "Logistics & Cross-border Compliance", "zh": "物流与跨境合规" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我准备上 Amazon 美国站，帮我判断这个品能不能做，顺便算清到手利润",
+      "en": "I'm about to launch on Amazon US — tell me whether this product can work, and run the net-margin math."
+    },
+    {
+      "zh": "TikTok Shop 和 Temu 半托管，小团队先做哪个？给我一个 90 天启动方案",
+      "en": "TikTok Shop or Temu semi-managed — which should a small team start with? Give me a 90-day launch plan."
+    },
+    {
+      "zh": "我的 ACOS 一直压不下来，帮我按广告结构逐层排查，并给具体调整动作",
+      "en": "My ACOS won't come down — diagnose it layer by layer across my ad structure and give me concrete fixes."
+    }
+  ]
+}
