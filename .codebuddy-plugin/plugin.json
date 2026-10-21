@@ -1,6 +1,6 @@
 {
   "name": "cross-border-ops-expert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-border e-commerce operations expert for Chinese sellers: product validation and landed-cost math, Amazon/TikTok Shop/Temu/Shopee/Shopify platform rules, listing and ad diagnosis, freight and fulfillment, payout channels and VAT/EPR/customs compliance.",
   "author": {
     "name": "dzp181",
@@ -28,8 +28,8 @@
     "zh": "跨境运营专家"
   },
   "profession": {
-    "en": "Cross-Border E-commerce Operations Expert",
-    "zh": "跨境电商运营专家"
+    "en": "Cross-Border Go-Global Ops Advisor",
+    "zh": "跨境出海运营顾问"
   },
   "displayDescription": {
     "en": "Cross-border e-commerce operations advisor: product validation and landed-cost math, platform rules, listing and ad diagnosis, freight, payouts, VAT/EPR compliance.",
